@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E20C3471A1939D7009AC82D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E20C3461A1939D7009AC82D /* iAd.framework */; };
+		9E20C34D1A19555E009AC82D /* 2player.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E20C34C1A19555E009AC82D /* 2player.png */; };
+		9E8D86DF1A17D51B00C711AA /* first.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E8D86DE1A17D51B00C711AA /* first.pdf */; };
+		9E9A80431A71FCAC00145DE8 /* Concrete.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E9A80421A71FCAC00145DE8 /* Concrete.jpg.png */; };
 		9EAC93891A16D58000E19414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC93881A16D58000E19414 /* main.m */; };
 		9EAC938C1A16D58000E19414 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC938B1A16D58000E19414 /* AppDelegate.m */; };
-		9EAC938F1A16D58000E19414 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC938E1A16D58000E19414 /* FirstViewController.m */; };
-		9EAC93921A16D58000E19414 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC93911A16D58000E19414 /* SecondViewController.m */; };
+		9EAC938F1A16D58000E19414 /* TwoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC938E1A16D58000E19414 /* TwoPlayerViewController.m */; };
+		9EAC93921A16D58000E19414 /* ThreePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC93911A16D58000E19414 /* ThreePlayerViewController.m */; };
 		9EAC93951A16D58000E19414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAC93931A16D58000E19414 /* Main.storyboard */; };
 		9EAC93971A16D58000E19414 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAC93961A16D58000E19414 /* Images.xcassets */; };
 		9EAC939A1A16D58000E19414 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EAC93981A16D58000E19414 /* LaunchScreen.xib */; };
 		9EAC93A61A16D58000E19414 /* GameOfSkateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC93A51A16D58000E19414 /* GameOfSkateTests.m */; };
+		9ECBB3A71A434A69008797CE /* TwoPlayerGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECBB3A61A434A69008797CE /* TwoPlayerGame.m */; };
+		9ECBB3AA1A434FA7008797CE /* ThreePlayerGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECBB3A91A434FA7008797CE /* ThreePlayerGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +34,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E20C3461A1939D7009AC82D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		9E20C34C1A19555E009AC82D /* 2player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2player.png; sourceTree = "<group>"; };
+		9E8D86DE1A17D51B00C711AA /* first.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = first.pdf; sourceTree = "<group>"; };
+		9E9A80421A71FCAC00145DE8 /* Concrete.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Concrete.jpg.png; sourceTree = "<group>"; };
 		9EAC93831A16D58000E19414 /* GameOfSkate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfSkate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAC93871A16D58000E19414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EAC93881A16D58000E19414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EAC938A1A16D58000E19414 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EAC938B1A16D58000E19414 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9EAC938D1A16D58000E19414 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		9EAC938E1A16D58000E19414 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		9EAC93901A16D58000E19414 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		9EAC93911A16D58000E19414 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9EAC938D1A16D58000E19414 /* TwoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoPlayerViewController.h; sourceTree = "<group>"; };
+		9EAC938E1A16D58000E19414 /* TwoPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoPlayerViewController.m; sourceTree = "<group>"; };
+		9EAC93901A16D58000E19414 /* ThreePlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreePlayerViewController.h; sourceTree = "<group>"; };
+		9EAC93911A16D58000E19414 /* ThreePlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreePlayerViewController.m; sourceTree = "<group>"; };
 		9EAC93941A16D58000E19414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EAC93961A16D58000E19414 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9EAC93991A16D58000E19414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9EAC939F1A16D58000E19414 /* GameOfSkateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfSkateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAC93A41A16D58000E19414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EAC93A51A16D58000E19414 /* GameOfSkateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOfSkateTests.m; sourceTree = "<group>"; };
+		9ECBB3A51A434A69008797CE /* TwoPlayerGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoPlayerGame.h; sourceTree = "<group>"; };
+		9ECBB3A61A434A69008797CE /* TwoPlayerGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoPlayerGame.m; sourceTree = "<group>"; };
+		9ECBB3A81A434FA7008797CE /* ThreePlayerGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreePlayerGame.h; sourceTree = "<group>"; };
+		9ECBB3A91A434FA7008797CE /* ThreePlayerGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreePlayerGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E20C3471A1939D7009AC82D /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,7 @@
 		9EAC937A1A16D58000E19414 = {
 			isa = PBXGroup;
 			children = (
+				9E20C3461A1939D7009AC82D /* iAd.framework */,
 				9EAC93851A16D58000E19414 /* GameOfSkate */,
 				9EAC93A21A16D58000E19414 /* GameOfSkateTests */,
 				9EAC93841A16D58000E19414 /* Products */,
@@ -84,12 +100,19 @@
 		9EAC93851A16D58000E19414 /* GameOfSkate */ = {
 			isa = PBXGroup;
 			children = (
+				9E20C34C1A19555E009AC82D /* 2player.png */,
+				9E9A80421A71FCAC00145DE8 /* Concrete.jpg.png */,
+				9E8D86DE1A17D51B00C711AA /* first.pdf */,
 				9EAC938A1A16D58000E19414 /* AppDelegate.h */,
 				9EAC938B1A16D58000E19414 /* AppDelegate.m */,
-				9EAC938D1A16D58000E19414 /* FirstViewController.h */,
-				9EAC938E1A16D58000E19414 /* FirstViewController.m */,
-				9EAC93901A16D58000E19414 /* SecondViewController.h */,
-				9EAC93911A16D58000E19414 /* SecondViewController.m */,
+				9EAC938D1A16D58000E19414 /* TwoPlayerViewController.h */,
+				9EAC938E1A16D58000E19414 /* TwoPlayerViewController.m */,
+				9ECBB3A51A434A69008797CE /* TwoPlayerGame.h */,
+				9ECBB3A61A434A69008797CE /* TwoPlayerGame.m */,
+				9EAC93901A16D58000E19414 /* ThreePlayerViewController.h */,
+				9EAC93911A16D58000E19414 /* ThreePlayerViewController.m */,
+				9ECBB3A81A434FA7008797CE /* ThreePlayerGame.h */,
+				9ECBB3A91A434FA7008797CE /* ThreePlayerGame.m */,
 				9EAC93931A16D58000E19414 /* Main.storyboard */,
 				9EAC93961A16D58000E19414 /* Images.xcassets */,
 				9EAC93981A16D58000E19414 /* LaunchScreen.xib */,
@@ -173,6 +196,7 @@
 				TargetAttributes = {
 					9EAC93821A16D58000E19414 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = X7HZN828N4;
 					};
 					9EAC939E1A16D58000E19414 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -205,7 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EAC93951A16D58000E19414 /* Main.storyboard in Resources */,
+				9E20C34D1A19555E009AC82D /* 2player.png in Resources */,
 				9EAC939A1A16D58000E19414 /* LaunchScreen.xib in Resources */,
+				9E9A80431A71FCAC00145DE8 /* Concrete.jpg.png in Resources */,
+				9E8D86DF1A17D51B00C711AA /* first.pdf in Resources */,
 				9EAC93971A16D58000E19414 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,9 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EAC93921A16D58000E19414 /* SecondViewController.m in Sources */,
+				9ECBB3A71A434A69008797CE /* TwoPlayerGame.m in Sources */,
+				9EAC93921A16D58000E19414 /* ThreePlayerViewController.m in Sources */,
 				9EAC938C1A16D58000E19414 /* AppDelegate.m in Sources */,
-				9EAC938F1A16D58000E19414 /* FirstViewController.m in Sources */,
+				9ECBB3AA1A434FA7008797CE /* ThreePlayerGame.m in Sources */,
+				9EAC938F1A16D58000E19414 /* TwoPlayerViewController.m in Sources */,
 				9EAC93891A16D58000E19414 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +378,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GameOfSkate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -359,9 +393,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GameOfSkate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -418,6 +457,7 @@
 				9EAC93AB1A16D58000E19414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EAC93AC1A16D58000E19414 /* Build configuration list for PBXNativeTarget "GameOfSkateTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +466,7 @@
 				9EAC93AE1A16D58000E19414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

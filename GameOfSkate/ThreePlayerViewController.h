@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ThreePlayerViewController : UIViewController
+<UIAlertViewDelegate, UITextFieldDelegate, UIGestureRecognizerDelegate>
 
 
 @end
